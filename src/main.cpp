@@ -19,5 +19,6 @@ void setup() {
 void loop() {
     timer.atualizar();
     labirinto.atualizar(&timer);
+    fio.atualizar();
     // labirinto.atualizar();
 }

@@ -84,4 +84,8 @@ void Timer::atualizar(){
         printf("Tempo restante: %d:%d\n", tempoRes / 60, tempoRes % 60);
         tempoRes--;
     }
+
+    if(tempoRes < 0){
+        erro();
+    }
 }
